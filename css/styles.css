@@ -1,14 +1,39 @@
-body{
-    background-color: #E7E6E1;
+/* html * {
+  background: rgba(255, 0, 0, .1);
+  box-shadow: 0 0 0 1px red;
+} */
 
+
+body{
+    margin: 0;
+    background-color: #E7E6E1;
     font-family: 'Montserrat', sans-serif;
+
   }
 
 
+.Homepage{
+  display: block;
+  padding: 100px;
+}
+
+.homepage-text{
+padding-left: 10px;
+
+}
 h1{
+  margin: 0;
   color: #295939;
 }
 
+.description{
+  margin: 0;
+
+}
 h3{
   color: #295939;
+}
+
+h2{
+  text-align: center;
 }
