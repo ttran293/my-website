@@ -5,7 +5,7 @@
 
 
 body{
-    margin: 0;
+
     background-color: #E7E6E1;
     font-family: 'Montserrat', sans-serif;
 
@@ -15,12 +15,20 @@ body{
 .Homepage{
   display: block;
   padding: 100px;
+  width: 95%;
+  margin: 0 auto 0 auto;
 }
 
 .homepage-text{
 padding-left: 10px;
 
 }
+
+#welcome{
+  margin: 0  auto 0 auto;
+}
+
+
 h1{
   margin: 0;
   color: #295939;
