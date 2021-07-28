@@ -15,7 +15,7 @@ body{
 
   padding-top: 0;
   padding-right: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   padding-left: 50px;
   background-color: #295939;
   position: fixed;
@@ -55,4 +55,5 @@ h3{
 
 h2{
   text-align: center;
+  padding-right: 10px;
 }
