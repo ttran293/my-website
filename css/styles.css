@@ -7,14 +7,14 @@ body{
 
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-
+  color: #F4F4F4;
 }
 
 
 
 .header{
   height: 100px;
-  background-color: #346751;
+  background-color: #F0A500;
 }
 .header-outer{
 
@@ -33,7 +33,7 @@ body{
 }
 
 .Homepage{
-  background-color: #ECDBBA;
+  background-color: #1A1C20;
   height: 850px;
   display: block;
 }
@@ -63,7 +63,7 @@ h1{
 footer{
   display: block;
   height: 100px;
-  background-color: #C84B31;
+  background-color: #CF7500;
 }
 
 .footer-outer{
