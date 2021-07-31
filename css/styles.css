@@ -1,7 +1,6 @@
-/* html * {
-  background: rgba(255, 0, 0, .1);
-  box-shadow: 0 0 0 1px red;
-} */
+/*
+* { border: 1px solid red; } */
+
 
 body{
   font-family: 'Lora', serif;
@@ -16,6 +15,7 @@ body{
   width: 100%;
   background-color: #F0A500;
   position: fixed;
+  display: block;
 }
 .header-outer{
 
@@ -73,7 +73,7 @@ footer{
 
 .footer-outer{
   height: 90%;
-  padding: 10px;
+  padding: 10px 10px 0 10px;
   margin: 0  auto 0 auto;
 
 }
@@ -82,4 +82,16 @@ footer{
   font-size: 30px;
   margin: 0 auto;
   text-align: center;
+}
+
+
+.Resume-Homepage{
+  background-color: #1A1C20;
+  height: 850px;
+  display: block;
+}
+
+.Resume-Homepage-outer{
+
+  margin: 0 auto 0 auto;
 }
