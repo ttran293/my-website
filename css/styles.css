@@ -1,5 +1,4 @@
-
-* { border: 1px solid red; }
+/* * { border: 1px solid red; } */
 
 /* --------------- Main Design ---------------*/
 body{
@@ -145,6 +144,7 @@ h2{
   width: 90%;
   display: flex;
   margin: 0 auto;
+  justify-content: center;
 }
 
 /* --------------- Contact ---------------*/
@@ -153,4 +153,8 @@ h2{
   width: 90%;
   display: flex;
   margin: 0 auto;
+}
+
+.copyright{
+    margin: 0 auto;
 }
