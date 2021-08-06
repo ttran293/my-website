@@ -1,97 +1,156 @@
-/*
-* { border: 1px solid red; } */
 
+* { border: 1px solid red; }
 
+/* --------------- Main Design ---------------*/
 body{
   font-family: 'Lora', serif;
   margin: 0;
-  color: #F4F4F4;
+  color: #333333;
+background-color: #F5EFE3;
 }
 
+header{
+  margin: 0 auto;
 
-
-.header{
-  height: 100px;
-  width: 100%;
-  background-color: #F0A500;
-  position: fixed;
-  display: block;
-}
-.header-outer{
-
-   padding-left: 200px;
-   padding-right: 200px;
-   padding-top: 20px;
-   margin-bottom: 0;
-}
-.header-content{
-  width: 600px;
-  padding-top: 10px;
-  margin: 0  auto 0 auto;
-  font-size: 40px;
-  padding-left: 30px;
-}
-
-.Homepage{
-  background-color: #1A1C20;
-  height: 850px;
-  display: block;
-}
-
-.Homepage-outer{
-
-  margin: 0 auto 0 auto;
-}
-
-.welcome{
-  padding-top: 150px;
-  margin: 0  auto 0 auto;
 
 }
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 80px;
-  max-width: 100%;max-height: 100%;
-  text-align: center;
-}
-
-.description{
-  font-size: 40px;
-text-align: left;
-  max-width: 100%;max-height: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
 
 footer{
-  display: block;
-
-  height: 100px;
-  background-color: #CF7500;
-}
-
-.footer-outer{
-  height: 90%;
-  padding: 10px 10px 0 10px;
-  margin: 0  auto 0 auto;
 
 }
-.footer-text{
-  padding: 20px;
-  font-size: 30px;
+
+
+h2{
+  text-align: center;
+
+}
+
+
+/* --------------- Header Design ---------------*/
+
+.header-Outer{
+  width: 90%;
+  position: fixed;
   margin: 0 auto;
+}
+
+/* --------------- Introduction Homepage Design ---------------*/
+.introduction{
+
+}
+
+.intro-outer{
+  width: 50%;
+  margin: 40px auto 0px;
+}
+
+.profile-picture{
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.intro-text{
+  display: block;
+  margin: 0 auto;
+}
+
+.hello{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 60px;
+}
+
+.name{
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+/* --------------- HR ---------------*/
+.sep{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* --------------- Experience ---------------*/
+.experience{
+
+}
+
+.experience-outter{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.intern-outer{
+    display: inline-block;
+    width: 20%;
+}
+
+.mediacy-logo{
+  display: block;
+  margin: 0 auto;
+}
+
+.role{
+  font-size: 20px;
+  margin: 0 auto;
+  display: block;
   text-align: center;
 }
 
-
-.Resume-Homepage{
-  background-color: #1A1C20;
-  height: 850px;
+.desc{
+  margin: 0 auto;
   display: block;
+  text-align: center;
 }
 
-.Resume-Homepage-outer{
+.uni-outer{
+  display: inline-block;
+  width: 20%;
+}
 
-  margin: 0 auto 0 auto;
+.UMBC-logo{
+  display: block;
+  margin: 0 auto;
+}
+
+
+.college-outer{
+  display: inline-block;
+  width: 20%;
+}
+
+.mc-logo{
+  display: block;
+  margin: 0 auto;
+}
+
+/* --------------- Skills ---------------*/
+
+.skills{
+
+}
+
+.skill-outer{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+
+/* --------------- Contact ---------------*/
+
+.footer-outer{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
 }
