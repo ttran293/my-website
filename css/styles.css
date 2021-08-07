@@ -1,4 +1,4 @@
-* { border: 1px solid red; }
+/* * { border: 1px solid red; } */
 
 /* --------------- Main Design ---------------*/
 body{
@@ -24,7 +24,10 @@ h2{
 
 }
 
-
+img{
+  max-width: 100%;
+  height: auto;
+}
 /* --------------- Header Design ---------------*/
 
 .header-Outer{
