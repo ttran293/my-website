@@ -1,11 +1,11 @@
-/* * { border: 1px solid red; } */
+* { border: 1px solid red; }
 
 /* --------------- Main Design ---------------*/
 body{
   font-family: 'Lora', serif;
   margin: 0;
   color: #333333;
-background-color: #F5EFE3;
+
 }
 
 header{
@@ -75,6 +75,7 @@ h2{
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+
 }
 
 
@@ -93,6 +94,7 @@ h2{
 .intern-outer{
     display: inline-block;
     width: 20%;
+    margin: 0 20px 0 20px;
 }
 
 .mediacy-logo{
@@ -116,6 +118,7 @@ h2{
 .uni-outer{
   display: inline-block;
   width: 20%;
+    margin: 0 20px 0 20px;
 }
 
 .UMBC-logo{
@@ -127,6 +130,7 @@ h2{
 .college-outer{
   display: inline-block;
   width: 20%;
+      margin: 0 20px 0 20px;
 }
 
 .mc-logo{
@@ -140,13 +144,50 @@ h2{
 
 }
 
-.skill-outer{
-  width: 90%;
-  display: flex;
-  margin: 0 auto;
+.skill-header{
+  width: 75%;
+  margin: auto;
   justify-content: center;
+  display: flex;
 }
 
+.skill-h{
+  display: inline-block;
+  width: 30%;
+
+}
+.proj-h{
+  display: inline-block;
+  width: 30%;
+
+}
+
+.skill-outer{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+
+}
+
+.subjects{
+  display: inline-block;
+  width: 20%;
+  margin: 0 5% 0 5%;
+}
+
+.language{
+  display: inline-block;
+  width: 20%;
+  margin: 0 5% 0 5%;
+}
+
+.project{
+  display: inline-block;
+  width: 20%;
+  margin: 0 5% 0 5%;
+}
 /* --------------- Contact ---------------*/
 
 .footer-outer{
