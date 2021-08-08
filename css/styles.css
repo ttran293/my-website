@@ -103,6 +103,8 @@ img{
 .mediacy-logo{
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .role{
@@ -121,24 +123,28 @@ img{
 .uni-outer{
   display: inline-block;
   width: 20%;
-    margin: 0 20px 0 20px;
+  margin: 0 20px 0 20px;
 }
 
 .UMBC-logo{
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 
 .college-outer{
   display: inline-block;
   width: 20%;
-      margin: 0 20px 0 20px;
+  margin: 0 20px 0 20px;
 }
 
 .mc-logo{
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* --------------- Skills ---------------*/
