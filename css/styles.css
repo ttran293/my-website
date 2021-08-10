@@ -2,25 +2,13 @@
 
 /* --------------- Main Design ---------------*/
 
-/* styling for Pen, unrelated to border-image */
-
-
-
-
-/* div {
-  width: 40vw;
-  height: 40vh;
-  margin: 4em auto;
-}  */
-
 
 
 body{
   font-family: 'Lora', serif;
   margin: 0;
-  color: #FFF47D;
-  /* background-image: url("images/bg2.png"); */
-  background-color: #1D1F1F;
+  color: #000000;
+  /* background-color: #1D1F1F; */
 }
 
 header{
@@ -40,11 +28,9 @@ h2{
 
 /* --------------- Header Design ---------------*/
 
-.header-Outer{
-  width: 90%;
-  position: fixed;
-  margin: 0 auto;
-}
+
+
+
 
 /* --------------- Introduction Homepage Design ---------------*/
 .introduction{
@@ -57,7 +43,7 @@ h2{
 }
 
 .profile-picture{
-  display: block;
+  display: inline-block;
   margin: 0 auto 0 auto;
   max-width:100%;
   height:auto;
@@ -65,7 +51,7 @@ h2{
 }
 
 .intro-text{
-  display: block;
+  display: inline-block;
   margin: 0 auto;
 }
 
@@ -121,8 +107,8 @@ h2{
   width: 180px;
     height: 180px;
   /* object-fit: contain; */
-  border: 10px solid white;
-border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+  /* border: 10px solid black; */
+
 }
 
 .role{
@@ -152,8 +138,8 @@ border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/sv
   width: 180px;
     height: 180px;
   /* object-fit: contain; */
-  border: 10px solid white;
-border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+  /* border: 10px solid black; */
+
 }
 
 
@@ -171,8 +157,8 @@ border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/sv
   width: 180px;
     height: 180px;
   /* object-fit: contain; */
-  border: 10px solid white;
-border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+  /* border: 10px solid black; */
+/* border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch; */
 }
 
 /* --------------- Skills ---------------*/

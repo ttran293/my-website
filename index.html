@@ -3,115 +3,130 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Thanh Nam Tran's Homepage</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
 
 </head>
-<header>
-  <div class="header-outer">
-    <div class="header-content">
 
-    </div>
-  </div>
+
+<header>
+    <nav class="navbar d-flex justify-content-center py-3 navbar-dark bg-dark">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
 </header>
 
 <body>
 
+  <div class="body-outer">
 
-  <div class="introduction">
-    <div class="intro-outer">
-      <!-- Xin chao -->
-      <div class="intro-text">
-        <h1 class="hello">_Hello World_</h1>
-        <h2 class="name">I'm Thanh Nam Tran</h2>
-        <h2 class="r">Software Engineer</h2>
+
+    <div class="introduction">
+      <div class="intro-outer">
+
+        <img class="profile-picture" src="images/circle-cropped.png" alt="Profile Picture" style=width="180px" ; height="180px">
+        <!-- Xin chao -->
+        <div class="intro-text">
+          <h1 class="hello">_Hello World_</h1>
+          <h2 class="name">I'm Thanh Nam Tran</h2>
+          <h2 class="r">Software Engineer</h2>
+        </div>
+
       </div>
-      <img class="profile-picture" src="images/circle-cropped.png" alt="Profile Picture" style=width="180px" ; height="180px">
+    </div>
+
+
+  <h2 class="sep">Work & Education</h2>
+
+    <div class="experience">
+      <div class="experience-outter">
+        <div class="intern-outer">
+          <img class="mediacy-logo" src="images/mediacy-logo.jpg" alt="Media Cybernetics Logo" style=width="180px" ; height="180px">
+          <div class="intern-description">
+            <h2 class="role">Media Cybernetics, Inc</h2>
+            <p class="desc">Engineering Intern <br>
+              May 2021 - Present
+            </p>
+          </div>
+        </div>
+
+        <div class="uni-outer">
+          <img class="UMBC-logo" src="images/umbc-logo.png" alt="UMBC Logo" style=width="180px" ; height="180px">
+          <div class="uni-description">
+            <h2 class="role">University of Maryland, Baltimore County</h2>
+            <p class="desc">B.S in Computer Science <br> August 2019 - Present
+            </p>
+          </div>
+        </div>
+
+        <div class="college-outer">
+          <img class="mc-logo" src="images/mc-logo.jpeg" alt="Montgomery College Logo" style=width="180px" ; height="180px">
+          <div class="college-description">
+            <h2 class="role">Montgomery College</h2>
+            <p class="desc">A.A in Computer Science <br> August 201 - May 2019
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="skills">
+        <div class="skill-header">
+          <h2 class="skill-h">Skills</h2>
+          <h2 class="proj-h">Projects</h2>
+        </div>
+
+
+        <div class="skill-outer">
+        <div class="subjects">
+          <p>Programming Language</p>
+          <p>Web & Database</p>
+          <p>Frameworks</p>
+          <p>Assembly Language</p>
+          <p>Agile Project Management Tool</p>
+          <p>Video Editing</p>
+        </div>
+
+        <div class="language">
+          <p>C++, C, C#, Python, Java</p>
+          <p>MySQL, HTML, CSS, JScript</p>
+          <p>Boostrap, NodeJS, ReactJS</p>
+          <p>X86-64 Assembly</p>
+          <p>Jira framework, Confluence Documentation, Zephyr Testing</p>
+          <p>Davinci Resolve, Adobe Premiere Pro</p>
+        </div>
+
+        <div class="project">
+          <p>Adjacency Lists - github.com/ttran293/Adjacency-Lists</p>
+          <p>Skew Heap Priority Queue - github.com/ttran293/Skew-Heap-Priority-Queue</p>
+          <p>Pluto Realty Database Application - github.com/ttran293/pluto-realty-dbms</p>
+          <p>Tic Tac Toe in Assembly Language - github.com/ttran293/tictactoe-nasmx86-64</p>
+          <p>My Website - github.com/ttran293/my-website</p>
+        </div>
+
+        </div>
     </div>
   </div>
 
-
-<h2 class="sep">Work & Education</h2>
-
-  <div class="experience">
-    <div class="experience-outter">
-      <div class="intern-outer">
-        <img class="mediacy-logo" src="images/mediacy-logo.jpg" alt="Media Cybernetics Logo" style=width="180px" ; height="180px">
-        <div class="intern-description">
-          <h2 class="role">Media Cybernetics, Inc</h2>
-          <p class="desc">Engineering Intern <br>
-            May 2021 - Present
-          </p>
-        </div>
-      </div>
-
-      <div class="uni-outer">
-        <img class="UMBC-logo" src="images/umbc-logo.png" alt="UMBC Logo" style=width="180px" ; height="180px">
-        <div class="uni-description">
-          <h2 class="role">University of Maryland, Baltimore County</h2>
-          <p class="desc">B.S in Computer Science <br> August 2019 - Present
-          </p>
-        </div>
-      </div>
-
-      <div class="college-outer">
-        <img class="mc-logo" src="images/mc-logo.jpeg" alt="Montgomery College Logo" style=width="180px" ; height="180px">
-        <div class="college-description">
-          <h2 class="role">Montgomery College</h2>
-          <p class="desc">A.A in Computer Science <br> August 201 - May 2019
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="skills">
-      <div class="skill-header">
-        <h2 class="skill-h">Skills</h2>
-        <h2 class="proj-h">Projects</h2>
-      </div>
-
-
-      <div class="skill-outer">
-      <div class="subjects">
-        <p>Programming Language</p>
-        <p>Web & Database</p>
-        <p>Frameworks</p>
-        <p>Assembly Language</p>
-        <p>Agile Project Management Tool</p>
-        <p>Video Editing</p>
-      </div>
-
-      <div class="language">
-        <p>C++, C, C#, Python, Java</p>
-        <p>MySQL, HTML, CSS, JScript</p>
-        <p>Boostrap, NodeJS, ReactJS</p>
-        <p>X86-64 Assembly</p>
-        <p>Jira framework, Confluence Documentation, Zephyr Testing</p>
-        <p>Davinci Resolve, Adobe Premiere Pro</p>
-      </div>
-
-      <div class="project">
-        <p>Adjacency Lists - github.com/ttran293/Adjacency-Lists</p>
-        <p>Skew Heap Priority Queue - github.com/ttran293/Skew-Heap-Priority-Queue</p>
-        <p>Pluto Realty Database Application - github.com/ttran293/pluto-realty-dbms</p>
-        <p>Tic Tac Toe in Assembly Language - github.com/ttran293/tictactoe-nasmx86-64</p>
-        <p>My Website - github.com/ttran293/my-website</p>
-      </div>
-
-      </div>
-  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
 </div>
 </body>
+
 <footer>
     <div class="footer-outer">
       <div class="copyright">
@@ -119,5 +134,6 @@
       </div>
     </div>
 </footer>
+
 
 </html>
