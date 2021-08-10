@@ -1,16 +1,30 @@
 /* * { border: 1px solid red; } */
 
 /* --------------- Main Design ---------------*/
+
+/* styling for Pen, unrelated to border-image */
+
+
+
+
+/* div {
+  width: 40vw;
+  height: 40vh;
+  margin: 4em auto;
+}  */
+
+
+
 body{
   font-family: 'Lora', serif;
   margin: 0;
-  color: #333333;
-
+  color: #FFF47D;
+  /* background-image: url("images/bg2.png"); */
+  background-color: #1D1F1F;
 }
 
 header{
   margin: 0 auto;
-
 
 }
 
@@ -24,10 +38,6 @@ h2{
 
 }
 
-img{
-  max-width: 100%;
-  height: auto;
-}
 /* --------------- Header Design ---------------*/
 
 .header-Outer{
@@ -49,6 +59,9 @@ img{
 .profile-picture{
   display: block;
   margin: 0 auto 0 auto;
+  max-width:100%;
+  height:auto;
+
 }
 
 .intro-text{
@@ -97,14 +110,19 @@ img{
 .intern-outer{
     display: inline-block;
     width: 20%;
-    margin: 0 20px 0 20px;
+    margin: 0 40px 0 40px;
 }
 
 .mediacy-logo{
   display: block;
   margin: 0 auto;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  width: 180px;
+    height: 180px;
+  /* object-fit: contain; */
+  border: 10px solid white;
+border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
 }
 
 .role{
@@ -123,34 +141,44 @@ img{
 .uni-outer{
   display: inline-block;
   width: 20%;
-  margin: 0 20px 0 20px;
+  margin: 0 40px 0 40px;
 }
 
 .UMBC-logo{
   display: block;
   margin: 0 auto;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  width: 180px;
+    height: 180px;
+  /* object-fit: contain; */
+  border: 10px solid white;
+border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
 }
 
 
 .college-outer{
   display: inline-block;
   width: 20%;
-  margin: 0 20px 0 20px;
+  margin: 0 40px 0 40px;
 }
 
 .mc-logo{
   display: block;
   margin: 0 auto;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  width: 180px;
+    height: 180px;
+  /* object-fit: contain; */
+  border: 10px solid white;
+border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
 }
 
 /* --------------- Skills ---------------*/
 
 .skills{
-
+  /* margin-top: 200px; */
 }
 
 .skill-header{
