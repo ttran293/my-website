@@ -6,9 +6,8 @@
 
 header{
   margin: 0;
-  height: 50px;
-  background-color: #333;
-  margin-bottom: 40px;
+  height: 80px;
+  background-color: #E1D8CF;
 }
 
 body{
@@ -29,21 +28,25 @@ h2{
 /* --------------- Header Design ---------------*/
 
 .header-outer{
+  display: block;
   height: 100%;
   width: 50%;
-  margin: 0 auto 0 auto;
+  margin: auto auto;
 
 }
 .navMenu{
   overflow: hidden;
   display: flex;
-  margin: 0 auto;
   justify-content: center;
+}
+
+.but{
+
 }
 
 .navMenu a{
   float: left;
-  color: #f2f2f2;
+  color: #064420;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -51,8 +54,8 @@ h2{
 }
 
 .navMenu a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #064420;
+  color: white;
 }
 
 .navMenu a.active {
@@ -61,7 +64,8 @@ h2{
 }
 /* --------------- Introduction Homepage Design ---------------*/
 .introduction{
-  height: 720px;
+  background-color: #E4EFE7;
+  height: 960px;
   display: flex;
 }
 
@@ -75,38 +79,41 @@ h2{
 
 .profile-picture{
   display: block;
-  margin: 0 auto;
+  margin: auto auto;
   width: 100%;
   height: 100%;
   width: 270px;
   height: 270px;
-
-
 }
 
 .intro-text{
-  display: inline-block;
-  margin: 0 auto;
-  max-width:100%;
+  display: block;
+  margin: auto;
+
 }
 
 .hello{
   display: block;
   text-align: center;
-  margin: 0 auto;
+  margin: auto auto;
   font-size: 60px;
 }
 
 .name{
   display: block;
   text-align: center;
+  margin-bottom: 0;
+}
+.r{
+  display: block;
+  text-align: center;
   margin: 0;
 }
 
 
-
 /* --------------- HR ---------------*/
 .sep{
+  background-color: #FAF1E6;
   width: 50%;
   text-align: center;
   margin: auto;
@@ -118,7 +125,7 @@ h2{
 
 /* --------------- Experience ---------------*/
 .experience{
-
+  background-color: #FAF1E6;
 }
 
 .experience-outter{
