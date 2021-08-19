@@ -7,7 +7,12 @@
 header{
   margin: 0;
   height: 80px;
-  background-color: #E1D8CF;
+  background: #649173;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 }
 
 body{
@@ -16,7 +21,9 @@ body{
 }
 
 footer{
-
+  background: #636363; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #636363, #a2ab58); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #636363, #a2ab58); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -64,14 +71,13 @@ h2{
 }
 /* --------------- Introduction Homepage Design ---------------*/
 .introduction{
-  background-color: #E4EFE7;
-  height: 960px;
-  display: flex;
+  display: block;
+  height: 760px;
 }
 
 .intro-outer{
   width: 50vw;
-  height: 50vh;
+  height: inherit;
   margin: auto auto;
   display: flex;
   justify-content: center;
@@ -109,7 +115,6 @@ h2{
   text-align: center;
   margin: 0;
 }
-
 
 /* --------------- HR ---------------*/
 .sep{
