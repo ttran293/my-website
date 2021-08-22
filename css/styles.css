@@ -2,53 +2,46 @@
 box-sizing: border-box;
   border: 1px solid red;
 } */
-
 /* --------------- Main Design ---------------*/
-
-
-
-header{
-  margin: 0;
+header {
   height: 70px;
+  display: flex;
+  justify-content: center;
   background-color: white;
 }
 
-body{
+body {
   margin: 0;
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   overflow: auto;
 }
 
-footer{
+footer {
   background-color: white;
   color: #1e2023;
 }
 
-
-h2{
+h2 {
   text-align: center;
-
 }
 
 /* --------------- Header Design ---------------*/
-
-.header-outer{
+.header-outer {
   display: flex;
-  margin: auto auto;
   justify-content: center;
-
 }
-.navMenu{
+
+.navMenu {
   overflow: hidden;
   display: flex;
   justify-content: center;
 }
 
-.but{
+.but {
   margin: auto;
 }
 
-.navMenu a{
+.navMenu a {
   float: left;
   color: #1e2023;
   text-align: center;
@@ -66,8 +59,9 @@ h2{
   background-color: #1e2023;
   color: white;
 }
+
 /* --------------- Introduction Homepage Design ---------------*/
-.introduction{
+.introduction {
   background-color: #1e2023;
   height: 790px;
   color: white;
@@ -75,17 +69,18 @@ h2{
   justify-content: center;
 }
 
-.intro-outer{
+.intro-outer {
   display: block;
   margin: auto auto;
 }
-.earth{
+
+.earth {
   display: block;
   margin: auto auto;
 }
 
 #container {
-	text-align: center;
+  text-align: center;
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
@@ -93,73 +88,72 @@ h2{
 
 #text {
   font-size: 50px;
-	display: inline-block;
-	vertical-align: middle;
-	color: white;
-	letter-spacing: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  letter-spacing: 2px;
 }
 
 #cursor {
-	display: inline-block;
-	vertical-align: middle;
-	width: 3px;
-	height: 81px;
-	background-color: white;
+  display: inline-block;
+  vertical-align: middle;
+  width: 3px;
+  height: 81px;
+  background-color: white;
   margin: 0 auto;
-	animation: blink .85s step-end infinite;
+  animation: blink .85s step-end infinite;
 }
 
 @keyframes blink {
-	from, to {
-		background-color: transparent
-	}
-	50% {
-		background-color: white;
-	}
+  from, to {
+    background-color: transparent
+  }
+
+  50% {
+    background-color: white;
+  }
 }
 
-#b{
+#b {
   visibility: hidden;
   margin: 0;
 }
-/* --------------- About ---------------*/
 
-.about{
+/* --------------- About ---------------*/
+.about {
   background-color: white;
-  height: 200px;
   color: #1e2023;
   display: block;
+  position: static;
 }
-.name{
+
+.name {
   width: 50%;
   margin: 30px auto;
 }
-#tet{
+
+#tet {
   width: 85%;
   margin: 10px auto;
 }
 
-
 /* --------------- Experience ---------------*/
-
-#exp-header{
+#exp-header {
   margin: auto;
   justify-content: center;
   display: flex;
   white-space: nowrap;
   font-family: 'Fjalla One', sans-serif;
- font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  color: #06953E ;
+  color: #06953E;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
 
-.exp-h{
-  display: inline-block;
-  width: 30%;
-}
-.experience-outter{
+.exp-h {}
+
+.experience-outter {
   background-color: white;
   width: 100%;
   display: flex;
@@ -167,121 +161,107 @@ h2{
   justify-content: space-around;
 }
 
-
-.intern-outer{
-    display: inline-block;
-    width: 20%;
-    margin: 0 40px 0 40px;
-    white-space: nowrap;
-}
-
-.mediacy-logo{
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  width: 180px;
-    height: 180px;
-
-}
-
-.role{
-  font-size: 20px;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-
-.desc{
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-
-.uni-outer{
-  display: inline-block;
-  width: 20%;
-  margin: 0 40px 0 40px;
-
-}
-
-.UMBC-logo{
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  width: 180px;
-    height: 180px;
-
-}
-
-
-.college-outer{
+.intern-outer {
   display: inline-block;
   width: 20%;
   margin: 0 40px 0 40px;
   white-space: nowrap;
 }
 
-.mc-logo{
+.mediacy-logo {
   display: block;
   margin: 0 auto;
   width: 100%;
   height: 100%;
   width: 180px;
-    height: 180px;
+  height: 180px;
+}
+
+.role {
+  font-size: 20px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.desc {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.uni-outer {
+  display: inline-block;
+  width: 20%;
+  margin: 0 40px 0 40px;
+}
+
+.UMBC-logo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  width: 180px;
+  height: 180px;
+}
+
+.college-outer {
+  display: inline-block;
+  width: 20%;
+  margin: 0 40px 0 40px;
+  white-space: nowrap;
+}
+
+.mc-logo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  width: 180px;
+  height: 180px;
 }
 
 /* --------------- Skills ---------------*/
-#a{
+#a {
   visibility: hidden;
 }
-.skills{
+
+.skills {
   /* margin-top: 200px; */
   background-color: #1e2023;
 }
 
-.skill-header{
+.skill-header {
   color: white;
-  width: 75%;
   margin: auto;
   justify-content: center;
   display: flex;
   white-space: nowrap;
   font-family: 'Fjalla One', sans-serif;
- font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  color: #06953E ;
+  color: #06953E;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
 
-.skill-h{
+.skill-h {}
+
+.proj-h {
   display: inline-block;
   width: 30%;
-
-}
-.proj-h{
-  display: inline-block;
-  width: 30%;
-
 }
 
-.skill-outer{
+.skill-outer {
   margin: auto;
   justify-content: space-around;
   display: flex;
-
-color: white;
+  color: white;
 }
 
-.subjects{
+.subjects {}
 
-}
-
-.wrapper{
-
-}
+.wrapper {}
 
 .btn {
   height: 50px;
@@ -290,10 +270,9 @@ color: white;
   cursor: pointer;
   transition: all 1s ease;
   overflow: hidden;
-
 }
 
-.btn > p {
+.btn>p {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
@@ -305,7 +284,7 @@ color: white;
 }
 
 /* sliders */
-.btn:before{
+.btn:before {
   content: "";
   width: 100%;
   height: 100%;
@@ -315,7 +294,7 @@ color: white;
 }
 
 /* Top Slider */
-.btn-1:before{
+.btn-1:before {
   top: -60px;
   left: 0;
 }
@@ -325,22 +304,19 @@ color: white;
   top: 0;
   left: -210px;
 } */
-
 /* Right Slider */
 /* .btn-3:before{
   top: 0;
   left: 210px;
 } */
-
 /* Bottom Slider */
 /* .btn-4:before{
   top: 60px;
   left: 0;
 } */
-
 /* Hover Effect */
-.btn-1:hover:before{
-/* .btn-4:hover:before{ */
+.btn-1:hover:before {
+  /* .btn-4:hover:before{ */
   top: 0;
 }
 
@@ -348,36 +324,27 @@ color: white;
 .btn-3:hover:before{
   left: 0;
 } */
-
-.btn:hover p{
+.btn:hover p {
   color: black;
 }
 
+.language {}
 
+.project {}
 
-.language{
-
-}
-
-.project{
-
-}
 /* --------------- Contact ---------------*/
-
-.footer-outer{
+.footer-outer {
   width: 90%;
   display: flex;
   margin: 0 auto;
 }
 
-.copyright{
-    margin: 0 auto;
+.copyright {
+  margin: 0 auto;
 }
 
-
-
 /* Responsive Website */
-.m-header-outer{
+.m-header-outer {
   display: none;
 }
 
@@ -386,12 +353,9 @@ a {
   text-decoration: none;
 }
 
-.p-menu1{
-   height: 100%;
+.p-menu1 {
+  height: 100%;
 }
-
-
-
 
 /* Hamburger */
 .hamburger1 {
@@ -418,32 +382,31 @@ a {
   display: none;
 }
 
-#toggle1:checked + .hamburger1 .top {
+#toggle1:checked+.hamburger1 .top {
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   margin-top: 22.5px;
 }
 
-#toggle1:checked + .hamburger1 .meat {
+#toggle1:checked+.hamburger1 .meat {
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   margin-top: -5px;
 }
 
-#toggle1:checked + .hamburger1 .bottom {
+#toggle1:checked+.hamburger1 .bottom {
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
 }
 
-#toggle1:checked ~ .menu1 {
+#toggle1:checked~.menu1 {
   height: 340px;
 }
-
 
 /* Menu */
 .menu1 {
   width: 100%;
-  background-color: #02173F;
+  background-color: white;
   margin: 0;
   display: -ms-grid;
   display: grid;
@@ -475,6 +438,8 @@ a {
   margin: 0;
   padding: 10px 0;
   font: 700 20px 'Oswald', sans-serif;
+  color: #06953E;
+  text-decoration: underline;
 }
 
 .link1:hover {
@@ -484,25 +449,76 @@ a {
   transition: all 0.3s ease;
 }
 
+.p-menu1 {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
-  header{
+  body {}
+
+  header {
     margin: 0;
     font-size: 16px;
+    position: relative;
+    display: block;
+    justify-content: center;
   }
 
-  .header-outer{
+  .header-outer {
     display: none;
   }
 
-  .m-header-outer{
-  display: contents;
-  width: 100%;
+  .p-menu1 {
+    display: contents;
+    width: 100%;
   }
 
-  .introduction{
+  .introduction {
     height: 50vh;
     width: 100%;
   }
 
+  .about {
+    display: block;
+    position: relative;
+  }
 
+  #exp-header {
+    display: block;
+    white-space: normal;
+    position: relative;
+  }
+
+  .experience-outter {
+    display: grid;
+  }
+
+  .intern-outer {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+  }
+
+  .uni-outer {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+  }
+
+  .college-outer {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+  }
+
+  .skill-header {
+    display: block;
+    white-space: normal;
+    position: relative;
+    padding-top: 15px;
+  }
+
+  .skill-outer {
+    display: grid;
+  }
 }
