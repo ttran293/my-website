@@ -18,8 +18,8 @@ body{
 }
 
 footer{
-  background-color: #1e2023;
-  color: white;
+  background-color: white;
+  color: #1e2023;
 }
 
 
@@ -118,31 +118,53 @@ h2{
 	}
 }
 
-
+#b{
+  visibility: hidden;
+  margin: 0;
+}
 /* --------------- About ---------------*/
 
 .about{
   background-color: white;
   height: 200px;
-  color: 1e2023;
+  color: #1e2023;
   display: block;
 }
 .name{
   width: 50%;
   margin: 30px auto;
 }
-.tet{
+#tet{
   width: 85%;
   margin: 10px auto;
 }
 
+
 /* --------------- Experience ---------------*/
+
+#exp-header{
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  white-space: nowrap;
+  font-family: 'Fjalla One', sans-serif;
+ font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #06953E ;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.exp-h{
+  display: inline-block;
+  width: 30%;
+}
 .experience-outter{
   background-color: white;
-  width: 80%;
+  width: 100%;
   display: flex;
-  margin: 0 auto;
-  justify-content: center;
+  margin: 30px auto;
+  justify-content: space-around;
 }
 
 
@@ -150,6 +172,7 @@ h2{
     display: inline-block;
     width: 20%;
     margin: 0 40px 0 40px;
+    white-space: nowrap;
 }
 
 .mediacy-logo{
@@ -159,8 +182,6 @@ h2{
   height: 100%;
   width: 180px;
     height: 180px;
-  /* object-fit: contain; */
-  /* border: 10px solid black; */
 
 }
 
@@ -181,6 +202,7 @@ h2{
   display: inline-block;
   width: 20%;
   margin: 0 40px 0 40px;
+
 }
 
 .UMBC-logo{
@@ -190,8 +212,6 @@ h2{
   height: 100%;
   width: 180px;
     height: 180px;
-  /* object-fit: contain; */
-  /* border: 10px solid black; */
 
 }
 
@@ -200,6 +220,7 @@ h2{
   display: inline-block;
   width: 20%;
   margin: 0 40px 0 40px;
+  white-space: nowrap;
 }
 
 .mc-logo{
@@ -209,22 +230,30 @@ h2{
   height: 100%;
   width: 180px;
     height: 180px;
-  /* object-fit: contain; */
-  /* border: 10px solid black; */
-/* border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.362' stop-color='%23FF4834'/><stop offset='1' stop-color='%233B0300'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch; */
 }
 
 /* --------------- Skills ---------------*/
-
+#a{
+  visibility: hidden;
+}
 .skills{
   /* margin-top: 200px; */
+  background-color: #1e2023;
 }
 
 .skill-header{
+  color: white;
   width: 75%;
   margin: auto;
   justify-content: center;
   display: flex;
+  white-space: nowrap;
+  font-family: 'Fjalla One', sans-serif;
+ font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #06953E ;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
 .skill-h{
@@ -239,30 +268,99 @@ h2{
 }
 
 .skill-outer{
-  width: 70%;
   margin: auto;
-  margin-bottom: 20px;
-  justify-content: center;
+  justify-content: space-around;
   display: flex;
 
+color: white;
 }
 
 .subjects{
-  display: inline-block;
-  width: 20%;
-  margin: 0 5% 0 5%;
+
 }
 
+.wrapper{
+
+}
+
+.btn {
+  height: 50px;
+  margin: 30px 0;
+  position: relative;
+  cursor: pointer;
+  transition: all 1s ease;
+  overflow: hidden;
+
+}
+
+.btn > p {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+  transition: all 1s ease;
+}
+
+/* sliders */
+.btn:before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  transition: all 1s ease;
+}
+
+/* Top Slider */
+.btn-1:before{
+  top: -60px;
+  left: 0;
+}
+
+/* Left Slider */
+/* .btn-2:before{
+  top: 0;
+  left: -210px;
+} */
+
+/* Right Slider */
+/* .btn-3:before{
+  top: 0;
+  left: 210px;
+} */
+
+/* Bottom Slider */
+/* .btn-4:before{
+  top: 60px;
+  left: 0;
+} */
+
+/* Hover Effect */
+.btn-1:hover:before{
+/* .btn-4:hover:before{ */
+  top: 0;
+}
+
+/* .btn-2:hover:before,
+.btn-3:hover:before{
+  left: 0;
+} */
+
+.btn:hover p{
+  color: black;
+}
+
+
+
 .language{
-  display: inline-block;
-  width: 20%;
-  margin: 0 5% 0 5%;
+
 }
 
 .project{
-  display: inline-block;
-  width: 20%;
-  margin: 0 5% 0 5%;
+
 }
 /* --------------- Contact ---------------*/
 
