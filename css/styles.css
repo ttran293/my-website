@@ -261,16 +261,6 @@ h2 {
   color: white;
 }
 
-.subjects-1 {
-
-  cursor: pointer;
-  flex: 0 0 40%;
-}
-.subjects-2 {
-
-  cursor: pointer;
-  flex: 0 0 40%;
-}
 .title {
   width: 100%;
   box-sizing: border-box;
@@ -282,6 +272,44 @@ h2 {
   color: #505050
 }
 
+[class*="subjects-"]{
+  cursor: pointer;
+  flex: 0 0 40%;
+}
+
+[class*="dropdown-"]{
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 40px -10px #000;
+  color: #505050;
+  margin-top: 24px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all .5s
+}
+
+[class*="arrow-"]{
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  position: absolute;
+  right: 20px;
+  bottom: -24px;
+  display: none
+}
+
+
+.down {
+  max-height: 500px;
+}
+
+.gone {
+  display: block;
+}
+
+
+
 span {
   float: right;
   font-size: 24px !important
@@ -290,68 +318,6 @@ i {
   float: right;
   font-size: 24px !important
 }
-
-.dropdown {
-  width: 100%;
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0 0 40px -10px #000;
-  color: #505050;
-  margin-top: 24px;
-  max-height: 0;
-  overflow: hidden;
-  transition: all .5s
-}
-
-.down {
-  max-height: 500px;
-}
-
-.arrow {
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #fff;
-  position: absolute;
-  right: 20px;
-  bottom: -24px;
-  display: none
-}
-
-.arrow.gone {
-  display: block
-}
-
-
-.dropdown-2 {
-  width: 100%;
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0 0 40px -10px #000;
-  color: #505050;
-  margin-top: 24px;
-  max-height: 0;
-  overflow: hidden;
-  transition: all .5s
-}
-
-.down-2 {
-  max-height: 500px;
-}
-
-.arrow-2 {
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #fff;
-  position: absolute;
-  right: 20px;
-  bottom: -24px;
-  display: none
-}
-
-.arrow-2.gone-2 {
-  display: block
-}
-
 
 p {
   padding: 15px 14px;
