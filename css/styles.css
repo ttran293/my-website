@@ -275,6 +275,7 @@ h2 {
 [class*="subjects-"]{
   cursor: pointer;
   flex: 0 0 40%;
+  margin-bottom: 30px;
 }
 
 [class*="dropdown-"]{
@@ -312,17 +313,19 @@ h2 {
 
 span {
   float: right;
-  font-size: 24px !important
+  font-size: 24px !important;
 }
 i {
   float: right;
-  font-size: 24px !important
+  font-size: 24px !important;
+  margin: auto auto;
+
 }
 
 p {
   padding: 15px 14px;
   margin: 0;
-  transition: all .1s
+  transition: all .1s;
 }
 
 p:hover {
