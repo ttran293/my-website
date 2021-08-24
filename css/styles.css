@@ -24,6 +24,18 @@ footer {
 h2 {
   text-align: center;
 }
+hr{
+  transform:scale(1.5);
+}
+
+hr {
+  border: 0 solid black;
+  border-top-width: 1px;
+  height: 0;
+  display: block;
+  width: 40%;
+  margin-top: 10px;
+}
 
 /* --------------- Header Design ---------------*/
 .header-outer {
@@ -39,6 +51,7 @@ h2 {
 
 .but {
   margin: auto;
+  padding-left: 0px;
 }
 
 .navMenu a {
@@ -51,13 +64,21 @@ h2 {
 }
 
 .navMenu a:hover {
-  background-color: #1e2023;
+  background-color: #06953E;
   color: white;
+  border-radius: 0.5em;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+-webkit-transition-property: border-radius;
+transition-property: border-radius;
 }
 
 .navMenu a.active {
-  background-color: #1e2023;
-  color: white;
+
 }
 
 /* --------------- Introduction Homepage Design ---------------*/
@@ -74,10 +95,7 @@ h2 {
   margin: auto auto;
 }
 
-.earth {
-  display: block;
-  margin: auto auto;
-}
+
 
 #container {
   text-align: center;
@@ -126,15 +144,28 @@ h2 {
   display: block;
   position: static;
 }
+.about-header{
+    color: white;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    white-space: nowrap;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #06953E;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
 
 .name {
-  width: 50%;
-  margin: 30px auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #tet {
   width: 85%;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
 /* --------------- Experience ---------------*/
@@ -157,7 +188,7 @@ h2 {
   background-color: white;
   width: 100%;
   display: flex;
-  margin: 30px auto;
+  margin: 0 auto 30px;
   justify-content: space-around;
 }
 
@@ -226,7 +257,7 @@ h2 {
   visibility: hidden;
 }
 
-.skills {
+#skills {
   /* margin-top: 200px; */
   background-color: #1e2023;
 }
@@ -328,7 +359,7 @@ p {
 }
 
 p:hover {
-  background: coral;
+  background: #06953E;
   -webkit-transform: scale(1.05);
   color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 30px -10px #000
@@ -342,6 +373,7 @@ p:hover {
 .footer-outer {
   width: 90%;
   display: flex;
+  justify-content: space-around;
   margin: 0 auto;
 }
 
@@ -407,13 +439,13 @@ a {
 }
 
 #toggle1:checked~.menu1 {
-  height: 340px;
+  height: 220px;
 }
 
 /* Menu */
 .menu1 {
   width: 100%;
-  background-color: #E4D8DC;
+  background-color: #060708;
   margin: 0;
   display: -ms-grid;
   display: grid;
@@ -433,11 +465,11 @@ a {
 }
 
 .menu1 a:first-child {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 .menu1 a:last-child {
-  margin-bottom: 40px;
+
 }
 
 .link1 {
@@ -450,10 +482,7 @@ a {
 }
 
 .link1:hover {
-  background-color: #fff;
-  color: rgb(61, 61, 61);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+
 }
 
 .p-menu1 {
@@ -462,7 +491,9 @@ a {
 
 @media only screen and (max-width: 768px) {
   body {}
-
+  hr{
+    margin-top: 30px;
+  }
   header {
     margin: 0;
     font-size: 16px;
@@ -489,7 +520,10 @@ a {
     display: block;
     position: relative;
   }
-
+  .name{
+    width: 100%;
+    margin: 0 auto 10px;
+  }
   #exp-header {
     display: block;
     white-space: normal;
@@ -499,7 +533,12 @@ a {
   .experience-outter {
     display: grid;
   }
-
+  .exp-h{
+    margin: 0 auto;
+  }
+  .skill-h{
+    margin-top: 0;
+  }
   .intern-outer {
     display: block;
     width: 100%;
