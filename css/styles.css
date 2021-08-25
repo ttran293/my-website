@@ -3,6 +3,15 @@ box-sizing: border-box;
   border: 1px solid red;
 } */
 /* --------------- Main Design ---------------*/
+
+*,
+*:after,
+*:before{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 header {
   height: 70px;
   display: flex;
@@ -56,11 +65,12 @@ hr {
 
 .navMenu a {
   float: left;
-  color: #1e2023;
+  color: black;
   text-align: center;
   padding: 12px 14px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: bold;
 }
 
 .navMenu a:hover {
@@ -75,6 +85,7 @@ box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 transition-duration: 0.4s;
 -webkit-transition-property: border-radius;
 transition-property: border-radius;
+font-weight: bold;
 }
 
 .navMenu a.active {
@@ -83,7 +94,7 @@ transition-property: border-radius;
 
 /* --------------- Introduction Homepage Design ---------------*/
 .introduction {
-  background-color: #1e2023;
+  background-color: #121315;
   height: 790px;
   color: white;
   display: flex;
@@ -259,7 +270,7 @@ transition-property: border-radius;
 
 #skills {
   /* margin-top: 200px; */
-  background-color: #1e2023;
+  background-color: #121315;
 }
 
 .skill-header {
@@ -299,7 +310,8 @@ transition-property: border-radius;
   border-radius: 4px;
   position: relative;
   box-shadow: 0 0 40px -10px #000;
-  color: #505050
+  color: black;
+  font-weight: bold;
 }
 
 [class*="subjects-"]{
@@ -313,7 +325,7 @@ transition-property: border-radius;
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 0 40px -10px #000;
-  color: #505050;
+  color: black;
   margin-top: 24px;
   max-height: 0;
   overflow: hidden;
@@ -362,8 +374,9 @@ p:hover {
   background: #06953E;
   -webkit-transform: scale(1.05);
   color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 30px -10px #000
+  box-shadow: 0 0 30px -10px #000;
 }
+
 
 .language {}
 
@@ -387,9 +400,7 @@ p:hover {
 }
 
 a {
-  color: #fff;
-  text-decoration: none;
-
+  font-weight: bold;
 }
 
 .p-menu1 {
@@ -512,7 +523,7 @@ a {
   }
 
   .introduction {
-    height: 50vh;
+    height: 70vh;
     width: 100%;
   }
 
@@ -524,6 +535,9 @@ a {
     width: 100%;
     margin: 0 auto 10px;
   }
+
+  #more {display: none;}
+  
   #exp-header {
     display: block;
     white-space: normal;
@@ -567,4 +581,5 @@ a {
   .skill-outer {
     display: grid;
   }
+
 }

@@ -6,7 +6,7 @@ function f() {
   if (document.getElementsByClassName('dropdown-1')[0].classList.contains('down')) {
     setTimeout(function() {
       document.getElementsByClassName('dropdown-1')[0].style.overflow = 'visible'
-    }, 500)
+    }, 100)
   } else {
     document.getElementsByClassName('dropdown-1')[0].style.overflow = 'hidden'
   }
@@ -18,7 +18,7 @@ function f2() {
   if (document.getElementsByClassName('dropdown-2')[0].classList.contains('down')) {
     setTimeout(function() {
       document.getElementsByClassName('dropdown-2')[0].style.overflow = 'visible'
-    }, 500)
+    }, 100)
   } else {
     document.getElementsByClassName('dropdown-2')[0].style.overflow = 'hidden'
   }
@@ -30,7 +30,7 @@ function f3() {
   if (document.getElementsByClassName('dropdown-3')[0].classList.contains('down')) {
     setTimeout(function() {
       document.getElementsByClassName('dropdown-3')[0].style.overflow = 'visible'
-    }, 500)
+    }, 100)
   } else {
     document.getElementsByClassName('dropdown-3')[0].style.overflow = 'hidden'
   }
@@ -41,7 +41,7 @@ function f4() {
   if (document.getElementsByClassName('dropdown-4')[0].classList.contains('down')) {
     setTimeout(function() {
       document.getElementsByClassName('dropdown-4')[0].style.overflow = 'visible'
-    }, 500)
+    }, 100)
   } else {
     document.getElementsByClassName('dropdown-4')[0].style.overflow = 'hidden'
   }
@@ -52,7 +52,7 @@ function f5() {
   if (document.getElementsByClassName('dropdown-5')[0].classList.contains('down')) {
     setTimeout(function() {
       document.getElementsByClassName('dropdown-5')[0].style.overflow = 'visible'
-    }, 500)
+    }, 100)
   } else {
     document.getElementsByClassName('dropdown-5')[0].style.overflow = 'hidden'
   }
@@ -63,7 +63,7 @@ function f6() {
   if (document.getElementsByClassName('dropdown-6')[0].classList.contains('down')) {
     setTimeout(function() {
       document.getElementsByClassName('dropdown-6')[0].style.overflow = 'visible'
-    }, 500)
+    }, 100)
   } else {
     document.getElementsByClassName('dropdown-6')[0].style.overflow = 'hidden'
   }
