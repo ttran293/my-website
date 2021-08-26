@@ -4,7 +4,7 @@ The Complete 2021 Web Development Bootcamp
 The idea is to have a landing page that properly introduce me, my experience, skills, and projects.  
 
 <p align ="center">
-<img src="https://github.com/ttran293/my-website/blob/main/readme-img/hp.gif" alt="Markdownify" width="30%" height="30%"></a>
+<img src="https://github.com/ttran293/my-website/blob/main/readme-img/hp.gif" alt="Markdownify" width="50%" height="50%"></a>
 </p>
 
 ## [Idea](#idea)
