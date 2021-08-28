@@ -2,7 +2,7 @@
 > This is my attempt to create a landing page after finished two intermediate HTML, CSS sections of 
 The Complete 2021 Web Development Bootcamp  
 The idea is to have a landing page that properly introduce me, my experience, skills, and projects.  
-
+Result: [Website](https://ttran293.github.io/my-website/)
 <p align ="center">
 <img src="https://github.com/ttran293/my-website/blob/main/readme-img/hp.gif" alt="Markdownify" width="50%" height="50%"></a>
 </p>
